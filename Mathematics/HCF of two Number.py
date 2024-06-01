@@ -28,10 +28,11 @@ def hcf_Euclidean(num1,num2):
     return num2
 
 # #------------@@ \\Optimized Euclidean Algo// @@
+# Time Complexity = big O ( Log(min(a,b))
 
 def hcf(num1,num2):
     if num2==0:
-        return a
+        return num1
     return hcf(num2,num1%num2)
 
 if __name__ == '__main__':
