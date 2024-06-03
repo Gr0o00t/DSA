@@ -46,4 +46,4 @@ def isPrime(n):
     return True
 
 if __name__ == "__main__":
-    print(isPrime(531))
+    print(isPrime(51))
