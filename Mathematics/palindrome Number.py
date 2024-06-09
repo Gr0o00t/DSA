@@ -9,4 +9,4 @@ def palindromenumber(Number):
 
     return dumpy == Number
 
-print(palindromenumber(101))
+print(palindromenumber(101)
